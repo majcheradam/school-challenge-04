@@ -1,1 +1,1 @@
-# Opis projektu
+# Projekt: Odwzorowanie strony internetowej SpaceX
