@@ -30,45 +30,48 @@ export default function Home() {
             <nav>
               <div className="navbar">
                 <ul>
-                  <Link href="#">
-                    <li>FALCON 9</li>
-                  </Link>
-                  <Link href="#">
-                    <li>FALCON HEAVY</li>
-                  </Link>
-                  <Link href="#">
-                    <li>DRAGON</li>
-                  </Link>
-                  <Link href="#">
-                    <li>STARSHIP</li>
-                  </Link>
-                  <Link href="#">
-                    <li>HUMAN SPACEFLIGHT</li>
-                  </Link>
-                  <Link href="#">
-                    <li>RIDESHARE</li>
-                  </Link>
-                  <Link href="#">
-                    <li>RIDESHARE</li>
-                  </Link>
-                  <Link href="#">
-                    <li>STARLINK</li>
-                  </Link>
+                  <li>
+                    <Link href="#">FALCON 9</Link>
+                  </li>
+                  <li>
+                    <Link href="#">FALCON HEAVY</Link>
+                  </li>
+                  <li>
+                    <Link href="#">DRAGON</Link>
+                  </li>
+                  <li>
+                    <Link href="#">STARSHIP</Link>
+                  </li>
+                  <li>
+                    <Link href="#">HUMAN SPACEFLIGHT</Link>
+                  </li>
+                  <li>
+                    <Link href="#">RIDESHARE</Link>
+                  </li>
+                  <li>
+                    <Link href="#">STARSHIELD</Link>
+                  </li>
+                  <li>
+                    <Link href="#">STARLINK</Link>
+                  </li>
                 </ul>
               </div>
             </nav>
           </div>
-          <div className="menu">
-            <ul>
-              <Link href="#">
-                <li>SHOP</li>
-              </Link>
-            </ul>
-            <button>
-              <div className="button-item"></div>
-              <div className="button-item"></div>
-              <div className="button-item"></div>
-            </button>
+
+          <div className="menu-position">
+            <div className="menu">
+              <ul>
+                <Link href="#">
+                  <li>SHOP</li>
+                </Link>
+              </ul>
+              <button>
+                <div className="button-item" id="botton-item-top"></div>
+                <div className="button-item" id="botton-item-middle"></div>
+                <div className="button-item" id="botton-item-bottom"></div>
+              </button>
+            </div>
           </div>
         </div>
       </header>
