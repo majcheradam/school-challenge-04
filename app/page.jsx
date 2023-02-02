@@ -66,7 +66,7 @@ export default function Home() {
                   <li>SHOP</li>
                 </Link>
               </ul>
-              <button>
+              <button className="button">
                 <div className="button-item" id="botton-item-top"></div>
                 <div className="button-item" id="botton-item-middle"></div>
                 <div className="button-item" id="botton-item-bottom"></div>
@@ -75,6 +75,34 @@ export default function Home() {
           </div>
         </div>
       </header>
+
+      <main>
+        <section className="first-content">
+          <div className="first-content-item">
+            <h2>RECENT LAUNCH</h2>
+            <h1>STARLINK MISSION</h1>
+            <button className="first-content-button">REWATCH</button>
+          </div>
+        </section>
+        <section className="second-content">
+          <Image
+            src="/back_image_b.jpg"
+            alt=""
+            width="7680"
+            height="4320"
+            className="second"
+          />
+        </section>
+        <section className="third-content">
+          <Image
+            src="/back_image_c.jpg"
+            alt=""
+            width="7680"
+            height="4320"
+            className="third"
+          />
+        </section>
+      </main>
     </div>
   )
 }
