@@ -126,7 +126,32 @@ export default function Home() {
       </main>
 
       <footer>
-        <div className="footer"></div>
+        <div className="footer">
+          <p>
+            <span>SPACEX © 2022</span>
+          </p>
+          <p>
+            <Link href="#">TWITTER</Link>
+          </p>
+          <p>
+            <Link href="#">YOUTUBE</Link>
+          </p>
+          <p>
+            <Link href="#">INSTAGRAM</Link>
+          </p>
+          <p>
+            <Link href="#">FLICKR</Link>
+          </p>
+          <p>
+            <Link href="#">LINKEDIN</Link>
+          </p>
+          <p>
+            <Link href="#">PRIVACY POLICY</Link>
+          </p>
+          <p>
+            <Link href="#">SUPPLIERS</Link>
+          </p>
+        </div>
       </footer>
     </div>
   )

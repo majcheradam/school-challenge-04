@@ -20,7 +20,7 @@ a {
   text-decoration: none;
   position: relative;
 }
-a::before {
+.header-cointeiner a::before {
   content: '';
   position: absolute;
   bottom: 0px;
@@ -31,7 +31,7 @@ a::before {
   transform-origin: center;
   transition: 0.4s;
 }
-a:hover::before {
+.header-cointeiner a:hover::before {
   scale: 1;
 }
 .header-cointeiner {
@@ -195,4 +195,27 @@ ul {
   top: 400vh;
   width: 100vw;
   height: 100vh;
+}
+.footer {
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 500vh;
+  width: 100vw;
+  height: 59px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+.footer p span {
+  color: #979797;
+  font-weight: 100;
+}
+.footer a:hover {
+  color: #979797;
 }
