@@ -11,13 +11,6 @@ export default function Home() {
   return (
     <div className={roboto.className}>
       <header>
-        <Image
-          src="/back_image_a.jpg"
-          alt=""
-          width="7680"
-          height="4320"
-          className="first"
-        />
         <div className="header-cointeiner">
           <div className="header-content">
             <Image
@@ -78,10 +71,12 @@ export default function Home() {
 
       <main>
         <section className="first-content">
-          <div className="content-item">
-            <h2>RECENT LAUNCH</h2>
-            <h1>STARLINK MISSION</h1>
-            <button className="content-button">REWATCH</button>
+          <div className="content-size">
+            <div className="content-item">
+              <h2>RECENT LAUNCH</h2>
+              <h1>STARLINK MISSION</h1>
+              <button className="content-button">REWATCH</button>
+            </div>
           </div>
         </section>
         <section className="second-content">
