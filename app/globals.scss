@@ -242,6 +242,9 @@ ul {
     flex-wrap: wrap;
     height: auto;
   }
+  .content-size {
+    padding-inline: 20px;
+  }
 }
 h1 {
   @media screen and (width <= 700px) {
